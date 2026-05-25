@@ -1,0 +1,229 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Montserrat", Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.8;
+  font-weight: 500;
+}
+
+main 
+{
+  display: flex;
+  width: 78vw;
+  height: 100vh;
+
+  #mainphoto
+  {
+    background-image: url(images/author.jpg);
+    height: 100vh;
+    width: 54.8%;
+  }
+  #Hello
+  {
+    position: absolute;
+    top: 5.6%;
+    left: 6.5%;
+    font-size: 1.6em;
+    color: #bfbfbf;
+  }
+  #letragrande
+  {
+    font-weight: bolder;
+    position: relative;
+    left: -7.6%;
+    color: #ededed;
+    z-index: -1;
+    font-size: 70px;
+    line-height: 1;
+  }
+  #textin
+  {
+    line-height: 1.5;
+    margin-top: -25px;
+    margin-bottom: 1.5rem;
+    font-size: 2.5rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family: "Montserrat", Arial, sans-serif;
+
+    span
+    {
+      font-size: 1em;
+      font-weight: bold;
+      color: #ccb78f;
+    }
+  }
+  p 
+  {
+    color: rgba(128, 128, 128, 0.616);
+    font-size: 18px;
+    text-align: left;
+  }
+  h3{
+    margin-top: 4%;
+    font-family: "Herr Von Muellerhoff", cursive;
+    font-size: 2.5rem;
+  }
+}
+
+body{
+  display: flex;
+  text-align-last: left;
+  font-size: 15px;
+  line-height: 1.8;
+  font-weight: 500;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.montserrat-regular {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.herr-von-muellerhoff-regular {
+  font-family: "Herr Von Muellerhoff", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+#menu {
+  width: 20%;
+
+}
+
+ .principal {
+  text-align: center;
+  padding: 40px 0;
+  }
+
+.lado {
+  width: 22%;
+  height: 100vh;
+  display: flex;
+  text-align-last: center;
+  flex-direction: column;
+  left: 0;
+  text-align: center;
+  align-content: center;
+  align-items: center;
+  position: fixed;
+  background-color: #fff;
+  padding: 45px;
+}
+
+.lado div {
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+}
+
+.icon {
+  text-align: center;
+  align-items: center;
+  display: block;
+  border-radius: 100%;
+  width: 160px;
+  height: 160px;
+  margin-bottom: 5px;
+  background-position: center;
+}
+
+.icon+h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+#louie {
+  margin-bottom: 1.5em;
+  text-align: center;
+  color: black;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  font-size: 25px;
+}
+
+.listinha {
+  text-align: center;
+
+    li {
+    text-align: center;
+   font-weight: bold;
+    color: black;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    margin: 0 0 15px 0;
+    
+      a{
+        color: black;
+    }
+}
+}
+.itememail{
+  padding-top: 28vh;
+  list-style: none;
+  color: black;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+a {
+  color: rgba(0, 0, 0, 0.7);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+.papel{
+  height: 20px;
+}
+
+.slider {
+  background-image: url(images/author-2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  width: 50%;
+  top: 0;
+  z-index: -1;
+}
+
+.foto {
+  opacity: 0%;
+}
+
+.principal{
+  padding: 3rem;
+  text-align: center;
+  top: 19vh;
+  position: relative;
+  z-index: 1;
+  width: 50%;
+}
+
+section {
+  font-size: 2.5rem;
+  font-weight: 900;
+  font-family: "Poppins", Arial, sans-serif;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
